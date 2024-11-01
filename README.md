@@ -1,16 +1,31 @@
-# catdog
+# Cat and Dog Detector
 
-A new Flutter project.
+This is a simple Flutter application that uses AI to detect whether an uploaded image is of a cat or a dog. This project was created as a learning and testing project to explore image classification with machine learning models in Flutter.
 
-## Getting Started
+## Demo
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <img src="https://drive.google.com/file/d/1LKAraRnpm-whEzC7GQUmQl-rGj-i3esm/view?usp=sharing" alt="App Demo" width="250">
+    <img src="https://drive.google.com/file/d/1W4m8w7DCveuVjxX3zFdAONRY1KYL8hUB/view?usp=sharing" alt="App Demo" width="250">
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Upload an image of a cat or dog.
+- Uses a machine learning model to classify the image as either a cat or a dog.
+- Real-time prediction powered by a TensorFlow Lite model.
+  
+## How It Works
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Dataset**: The dataset used for training was downloaded from Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/tongpython/cat-and-dog?resource=download).
+2. **Model Training**: I used [Teachable Machine](https://teachablemachine.withgoogle.com/train) to train a custom image classification model. Teachable Machine makes it simple to build and export a model trained on images without requiring in-depth ML expertise.
+3. **Flutter and TensorFlow Lite**: The model from Teachable Machine was exported as a TensorFlow Lite model, which was integrated into the Flutter application. I used TensorFlow Lite packages for loading the model and running inference on device.
+
+## Libraries and Dependencies
+
+- **Flutter**: The core framework for building the app.
+- **TensorFlow Lite**: Used for running the machine learning model on mobile devices.
+- **Image Picker**: For selecting images from the device's gallery or camera.
+- **Path Provider**: To find commonly used locations on the filesystem.
+- **HTTP**: For making network requests if needed in the future.
+  
