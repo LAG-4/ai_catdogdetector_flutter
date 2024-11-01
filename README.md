@@ -5,8 +5,8 @@ This is a simple Flutter application that uses AI to detect whether an uploaded 
 ## Demo
 
 <p align="center">
-  <img src="https://drive.google.com/file/d/1LKAraRnpm-whEzC7GQUmQl-rGj-i3esm/view?usp=sharing" alt="App Demo" width="250">
-    <img src="https://drive.google.com/file/d/1W4m8w7DCveuVjxX3zFdAONRY1KYL8hUB/view?usp=sharing" alt="App Demo" width="250">
+  <img src="https://github.com/LAG-4/ai_catdogdetector_flutter/blob/master/WhatsApp%20Image%202024-11-02%20at%202.52.24%20AM.jpeg" alt="App Demo" width="250">
+    <img src="https://github.com/LAG-4/ai_catdogdetector_flutter/blob/master/daWG.jpeg" alt="App Demo" width="250">
 </p>
 
 ## Features
